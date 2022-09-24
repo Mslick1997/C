@@ -9,6 +9,7 @@ void main(){
     int cnt = 0, cnt1 = 0, koko = 0;
     for (i = 1 ; i <= 1000000 ; i++){
         N[i] = 0;
+        number[i] = 0;
     }
     for (i = 1 ; i <= 1000000 ; i++){
         scanf("%d", &number[i]);
@@ -16,13 +17,21 @@ void main(){
             break;
         }
         N[number[i]] = number[i];
+        ans[i] = N[number[i]];
         cnt++;
     }
     for (i = 1 ; i <= 1000000 ; i++){
         if (N[i] != 0){
-            N[i] = N[i];
+            printf("%d ", ans[i]);
             cnt1++;
         }
     }
-    printf("%d\n%d\n", cnt, cnt1);
+    /*for (i = 1 ; i <= cnt1 ; i++){
+        for (i2 = 1 ; i <= cnt ; i++){
+            if (N[i] == number[i2]){
+                printf("%d\n", number[i2]);
+            }
+        }
+    }*/
+    printf("\n%d\n%d\n", cnt, cnt1);
 }
