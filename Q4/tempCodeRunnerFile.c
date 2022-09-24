@@ -1,0 +1,1 @@
+printf("(%d %d)", number[i], number[i2]);
