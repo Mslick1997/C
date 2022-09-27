@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/User/C/Q4",
-      "program": "c:/Users/User/C/Q4/build/Debug/outDebug",
+      "cwd": "c:/Users/User/C/ArrayTechnique",
+      "program": "c:/Users/User/C/ArrayTechnique/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
