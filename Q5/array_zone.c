@@ -16,6 +16,7 @@ void main(){
     for (r = 0 ; r < N ; r++){
         for (c = 0 ; c < K / 2 ; c++){
             sum += RC[r][c];
+            printf("(%d)", RC[r][c]);
         }
         if (r == i){
             printf("%d ", sum);
