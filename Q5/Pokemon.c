@@ -31,6 +31,6 @@ int main(){
                 printf("%s %d\n", emp[i2].Name, emp[i2].Power[level[i]]);
             }
         }
-    }
+    } 
     return 0;
 }
