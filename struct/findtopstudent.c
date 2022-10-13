@@ -8,7 +8,7 @@ void main(){
     int i, i2, cnt = 0;
     int tanny = 0;
     int sum = 0;
-    int score[N][k], K[k], B[N] ,A[k];
+    int score[1000][5], K[5], B[1000] ,A[5];
     for (i = 0 ; i < N ; i++){
         for (i2 = 0 ; i2 < k ; i2++){
             scanf("%d", &score[i][i2]);
