@@ -4,7 +4,7 @@
 
 struct Book_data{
     int book_id;
-    char book_name[100];
+    char book_name[50];
     int sell_price;
     int base_price;
 } typedef BD;
@@ -26,6 +26,8 @@ void main(){
         kebkar[i] = 0;
         scanf("%d\n", &book[i].book_id);
         gets(book[i].book_name);
+        int nameLength = strlen(book[i].book_name);
+        book[i].book_name[nameLength - 1] = 0;
         scanf("%d", &book[i].sell_price);
         scanf("%d", &book[i].base_price);
     }
