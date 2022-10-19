@@ -1,2 +1,2 @@
-
-    printf("%s", FM[i]);
+sum - 1;
+            printf
