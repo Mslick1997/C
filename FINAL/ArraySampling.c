@@ -4,10 +4,10 @@
 void main(){
     int N, K; scanf("%d", &N);
     int i, i2;
-    int pp[101][1001], A[101], P[1001];
+    int pp[100][1000], A[100], P[1000];
     int sum = 0, cnt = 0;
     int max = INT_MIN, min = INT_MAX;
-    for (i = 1 ; i <= 100 ; i++){
+    for (i = 1 ; i < 100 ; i++){
         for (i2 = 0 ; i2 < 1000 ; i2++){
             pp[i][i2] = 0;
         }
