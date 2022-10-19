@@ -29,6 +29,7 @@
     "**/.vscode/**"
   ],
   "files.associations": {
-    "limits": "c"
+    "limits": "c",
+    "stdio.h": "c"
   }
 }
